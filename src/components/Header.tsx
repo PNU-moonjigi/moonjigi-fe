@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import {Link} from "react-router-dom";
 
 const Header: React.FC = () => {
     return (
@@ -7,10 +8,10 @@ const Header: React.FC = () => {
             <div className="logo">🚪🔑️</div>
             <nav className="nav">
                 <ul>
-                    <li><a href="#" className="nav-link">개요</a></li>
-                    <li><a href="#" className="nav-link">과정</a></li>
-                    <li><a href="#" className="nav-link">평가</a></li>
-                    <li><a href="#" className="nav-link">실습</a></li>
+                    <li><Link to="/overview" className="nav-link">개요</Link></li>
+                    <li><Link to="/process" className="nav-link">과정</Link></li>
+                    <li><Link to="/evaluation" className="nav-link">평가</Link></li>
+                    <li><Link to="/practice" className="nav-link">실습</Link></li>
                 </ul>
             </nav>
         </header>
