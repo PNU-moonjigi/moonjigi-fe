@@ -1,7 +1,7 @@
 function Information() {
   return (
-    <div className="test-page-conatiner">
-      <h1>
+    <div className="information-conatiner">
+      <h1 className="title">
         <span className="highlight">난독화</span>
         <span>에 강한</span>
         <br />

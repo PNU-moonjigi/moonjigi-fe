@@ -1,5 +1,3 @@
-import React from "react";
-
 const Problem = () => {
   return (
     <div className="problem-page-container">
