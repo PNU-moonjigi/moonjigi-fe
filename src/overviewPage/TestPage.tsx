@@ -1,6 +1,6 @@
 function TestPage() {
     return (
-            <div className="content">
+            <div className="test-page-conatiner">
                 <h1>
                     <span className="highlight">난독화</span>
                     <span>에 강한</span>
@@ -10,7 +10,7 @@ function TestPage() {
                     <span className="highlight"> 웹쉘 탐지</span>
                 </h1>
                 <button className="test-button">TEST</button>
-                <p className="description">
+                <p className="test-page-description">
                     프로젝트 설명 어쩌구 저쩌구 올랄라 야호 ~
                 </p>
             </div>
