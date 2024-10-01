@@ -11,6 +11,7 @@ const App: React.FC = () => {
     <Router>
       <Header />
       <Routes>
+        <Route path="/" element={<Overview />} />
         <Route path="/overview" element={<Overview />} />
         <Route path="/process" element={<Process />} />
         <Route path="/evaluation" element={<Evaluation />} />
