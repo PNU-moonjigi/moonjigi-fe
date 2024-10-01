@@ -1,7 +1,11 @@
 import React from 'react';
+import '../overviewPage/OverviewPage.css';
+import TestPage from "../overviewPage/TestPage.tsx";
 
 const Overview: React.FC = () => {
-    return <div><h1>개요 페이지</h1></div>;
+    return (
+        <TestPage/>
+    );
 };
 
 export default Overview;
