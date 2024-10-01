@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  padding: 0 220px;
+  box-sizing: border-box;
+}
+
+/*TestPage*/
+.information-conatiner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  line-height: 1.3;
+}
+
+.highlight {
+  color: var(--main-color);
+}
+
+.test-button {
+  background-color: transparent;
+  width: 180px;
+  border: 2px solid var(--highlight-color);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.test-button:hover {
+  border: 2px solid var(--main-color);
+}
+
+.test-page-description {
+  margin-top: 30px;
+  font-size: 14px;
+  color: white;
+}
+
+/*ProblemPage*/
+.problem-page-container {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.problem-title {
+  text-align: right;
+  margin-bottom: 30px;
+  color: var(--highlight-color);
+}
+
+.emoji {
+  font-size: 48px;
+}
+
+.problem-box {
+  border: 2px solid var(--main-color);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: left;
+  color: white;
+  line-height: 1.6;
+}
