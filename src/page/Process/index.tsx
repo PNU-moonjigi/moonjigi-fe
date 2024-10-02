@@ -1,8 +1,17 @@
+import Deobfuscation from "./Deobfuscation.tsx";
+import "./Process.scss";
+import Tokenization from "./Tokenization.tsx";
+import TextRank from "./TextRank.tsx";
+import ML from "./MachineLearning.tsx";
+
 const Process = () => {
   return (
-    <div>
-      <h1>과정 페이지</h1>
-    </div>
+    <>
+        <Deobfuscation/>
+        <Tokenization/>
+        <TextRank/>
+        <ML/>
+    </>
   );
 };
 

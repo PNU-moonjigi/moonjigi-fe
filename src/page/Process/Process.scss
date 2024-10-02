@@ -1,0 +1,75 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: auto;
+}
+
+.terminal-section {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10px;
+  gap: 30px;
+  background-color: #000;
+  color: white;
+}
+
+.main-section {
+  text-align: left;
+}
+
+.discription-side {
+  width: 40%;
+
+}
+
+.highlight {
+  color: #ff4081;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.img-side {
+  width: 50%;
+}
+
+.right-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+//ML
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.list-item {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: normal;
+  color: #aaa;
+}
