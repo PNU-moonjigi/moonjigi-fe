@@ -1,9 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.scss";
-import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [selected, setSelected] = useState("overview");
+  const location = useLocation();
+  const [selected, setSelected] = useState("");
+
+  useEffect(() => {
+    switch (location.pathname) {
+      case "/overview":
+        setSelected("overview");
+        break;
+      case "/process":
+        setSelected("process");
+        break;
+      case "/evaluation":
+        setSelected("evaluation");
+        break;
+      case "/practice":
+        setSelected("practice");
+        break;
+      default:
+        setSelected("");
+    }
+  }, [location.pathname]);
 
   return (
     <header className="header-container">
@@ -14,7 +34,6 @@ const Header = () => {
             <Link
               to="/overview"
               className={`nav-link ${selected === "overview" ? "selected" : ""}`}
-              onClick={() => setSelected("overview")}
             >
               개요
             </Link>
@@ -23,7 +42,6 @@ const Header = () => {
             <Link
               to="/process"
               className={`nav-link ${selected === "process" ? "selected" : ""}`}
-              onClick={() => setSelected("process")}
             >
               과정
             </Link>
@@ -32,7 +50,6 @@ const Header = () => {
             <Link
               to="/evaluation"
               className={`nav-link ${selected === "evaluation" ? "selected" : ""}`}
-              onClick={() => setSelected("evaluation")}
             >
               평가
             </Link>
@@ -41,7 +58,6 @@ const Header = () => {
             <Link
               to="/practice"
               className={`nav-link ${selected === "practice" ? "selected" : ""}`}
-              onClick={() => setSelected("practice")}
             >
               실습
             </Link>
