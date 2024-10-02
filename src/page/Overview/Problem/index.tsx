@@ -1,10 +1,12 @@
+import styles from "../index.module.scss";
+
 const Problem = () => {
   return (
-    <div className="problem-page-container">
-      <h2 className="problem-title">
-        What’s the PROBLEM ?&nbsp;<span className="emoji">🧐</span>
+    <div className={styles.problemPageContainer}>
+      <h2 className={styles.problemTitle}>
+        What’s the PROBLEM ?&nbsp;<span className={styles.emoji}>🧐</span>
       </h2>
-      <div className="problem-box">
+      <div className={styles.problemBox}>
         <p>
           문제점에는 뭐가 있고 저게 있고 와랄라문제점에는 뭐가 있고 저게 있고
           와랄라 문제점에는 뭐가 문제점에는 뭐가 있고 저게 있고 와랄라문제점에는

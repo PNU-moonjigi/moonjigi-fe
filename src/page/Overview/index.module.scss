@@ -13,7 +13,7 @@ body {
 }
 
 /*TestPage*/
-.information-container {
+.informationContainer {
   background-color: black;
   display: flex;
   height: 100vh;
@@ -30,7 +30,7 @@ body {
   color: var(--main-color);
 }
 
-.test-button {
+.testButton {
   background-color: transparent;
   width: 245px;
   height: 73px;
@@ -45,11 +45,11 @@ body {
   transition: all 0.3s;
 }
 
-.test-button:hover {
+.testButton:hover {
   border: 2px solid var(--main-color);
 }
 
-.test-page-description {
+.testPageDescription {
   margin-top: 45px;
   font-size: 16px;
   color: white;
@@ -60,7 +60,7 @@ body {
 }
 
 /*ProblemPage*/
-.problem-page-container {
+.problemPageContainer {
   background-color: black;
   display: flex;
   height: 100%;
@@ -72,7 +72,7 @@ body {
   padding: 80px 220px;
 }
 
-.problem-title {
+.problemTitle {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -82,7 +82,7 @@ body {
   width: 100%;
 }
 
-.problem-box {
+.problemBox {
   border: 2px solid var(--main-color);
   box-sizing: border-box;
   padding: 0 33px;
@@ -94,7 +94,7 @@ body {
   font-size: 24px;
 }
 
-.goal-container {
+.goalContainer {
   display: flex;
   height: 100%;
   width: 100%;
@@ -106,7 +106,7 @@ body {
   background-color: white;
 }
 
-.goal-title {
+.goalTitle {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -116,7 +116,7 @@ body {
   width: 100%;
 }
 
-.goal-box {
+.goalBox {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -125,7 +125,7 @@ body {
   font-size: 24px;
 }
 
-.how-to-container {
+.howToContainer {
   background-color: black;
   display: flex;
   height: 100%;
@@ -137,7 +137,7 @@ body {
   padding: 80px 220px;
 }
 
-.how-to-title {
+.howToTitle {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -147,13 +147,13 @@ body {
   width: 100%;
 }
 
-.step-area {
+.stepArea {
   gap: 50px;
   width: 100%;
   height: 100%;
 }
 
-.how-to-box {
+.howToBox {
   width: 100%;
   position: relative;
   display: inline-block;
@@ -177,7 +177,7 @@ body {
   display: block;
 }
 
-.text-box {
+.textBox {
   font-size: 30px;
   font-weight: 600;
   border: 2px solid var(--main-color);
