@@ -1,0 +1,27 @@
+// ImageWithText.module.scss
+
+.image-container {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.styled-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  padding: 10px;
+  overflow-y: auto;
+  color: white;
+  font-size: 16px;
+}
