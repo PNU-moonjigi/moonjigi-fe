@@ -1,5 +1,5 @@
 .container {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 100px;
   height: auto;
 }
@@ -11,7 +11,7 @@
   width: 100%;
   justify-content: space-between;
   text-align: left;
-  padding: 10px;
+  padding: 0 70px;
   gap: 30px;
   background-color: #000;
   color: white;
@@ -19,6 +19,7 @@
 
 .mainSection {
   text-align: left;
+  padding: 0 70px;
 }
 
 .descriptionSide {
