@@ -60,6 +60,15 @@ body {
 }
 
 /*ProblemPage*/
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 70%;
+}
 .problemPageContainer {
   background-color: black;
   display: flex;
