@@ -20,7 +20,7 @@ function Information() {
         TEST
       </button>
       <p className={styles.testPageDescription}>
-        프로젝트 설명 어쩌구 저쩌구 올랄라 야호 ~
+        부산대학교 정보컴퓨터공학부 문지기
       </p>
     </div>
   );
