@@ -11,12 +11,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  overflow: overlay;
   --main-color: #ff4191;
   --dark-color: #e90074;
   --highlight-color: #fff078;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #4e4848;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #1e1e1e;
+}
 a {
   font-weight: 500;
   color: #646cff;

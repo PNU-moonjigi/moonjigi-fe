@@ -1,10 +1,12 @@
+import styles from "../index.module.scss";
+
 function Goal() {
   return (
-    <div className="goal-container">
-      <h2 className="goal-title">
-        <span className="emoji">⚽️</span>&nbsp;The GOAL is ...
+    <div className={styles.goalContainer}>
+      <h2 className={styles.goalTitle}>
+        <span className={styles.emoji}>⚽️</span>&nbsp;The GOAL is ...
       </h2>
-      <div className="goal-box">
+      <div className={styles.goalBox}>
         어쩌구 저쩌구 어랸러ㅔㅂ러ㅔ젇 어쩌구 저쩌구 어랸러ㅔㅂ러ㅔ젇 어쩌구
         저쩌구 어랸러ㅔㅂ러ㅔ젇 어쩌구 저쩌구 어랸러ㅔㅂ러ㅔ젇 어쩌구 저쩌구
         어랸러ㅔㅂ러ㅔ젇 어쩌구 저쩌구 어랸러ㅔㅂ러ㅔ젇 어쩌구 저쩌구

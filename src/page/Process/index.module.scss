@@ -4,9 +4,10 @@
   height: auto;
 }
 
-.terminal-section {
+.terminalSection {
   box-sizing: border-box;
   display: flex;
+  align-items: center;
   width: 100%;
   justify-content: space-between;
   text-align: left;
@@ -16,13 +17,12 @@
   color: white;
 }
 
-.main-section {
+.mainSection {
   text-align: left;
 }
 
-.discription-side {
+.descriptionSide {
   width: 40%;
-
 }
 
 .highlight {
@@ -41,19 +41,13 @@
   color: #aaa;
 }
 
-.img-side {
+.imgSide {
   width: 50%;
 }
 
-.right-side img {
+.rightSide img {
   max-width: 100%;
   height: auto;
-}
-
-.bottom-images {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
 }
 
 //ML
@@ -62,7 +56,7 @@
   padding-left: 20px;
 }
 
-.list-item {
+.listItem {
   font-size: 40px;
   font-weight: bold;
   margin: 20px 0;
