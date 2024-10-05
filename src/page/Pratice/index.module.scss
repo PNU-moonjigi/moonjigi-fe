@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputFile {
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  width: 570px;
+  height: 73px;
+  display: flex; // Add this line to enable flexbox
+  align-items: center;
+  justify-content: space-between;
+  &:hover {
+    border-bottom: 2px solid var(--highlight-color);
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  justify-content: end;
+  align-items: end;
+}
