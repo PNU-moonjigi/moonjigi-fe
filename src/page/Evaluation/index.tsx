@@ -1,10 +1,15 @@
 import React from "react";
+import RandomForest from "./RandomForest";
+import XGBoost from "./XGBoost";
+import SupportVector from "./SVM";
 
 const Evaluation: React.FC = () => {
   return (
-    <div>
-      <h1>평가 페이지</h1>
-    </div>
+    <>
+      <RandomForest/>
+      <SupportVector/>
+      <XGBoost/>
+    </>
   );
 };
 

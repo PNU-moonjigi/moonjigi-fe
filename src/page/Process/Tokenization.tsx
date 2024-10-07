@@ -37,9 +37,10 @@ $kR_NKA7Su($Ml1, $YK3qRS);
 #rTlthc@v^U@ykQuNEiaq9NFC'.
 'n0dvU,yCve{Fu~CtA*8%sZWe_%mZdpX_<Ra4M~2GuB}6m4';`}
           </ImageWithText>
+          <div className={styles.captionSide}>비난독화 후 코드</div>
         </div>
         <div className={styles.descriptionSide}>
-          <h2 className={styles.highlight}>ast, opcode 추출</h2>
+          <h2 className={styles.highlight}>AST, opcode 추출</h2>
           <h1 className={styles.title}>
             opcode와 AST를 추출하여 피쳐를 생성한 후 학습 및 분류에 사용
           </h1>
@@ -49,8 +50,9 @@ $kR_NKA7Su($Ml1, $YK3qRS);
         </div>
       </div>
       <div className={styles.terminalSection}>
-        <ImageWithText>
-          {`[
+        <div className={styles.imgSide}>
+          <ImageWithText>
+            {`[
     {
         "nodeType": "Stmt_Expression",
         "expr": {
@@ -147,9 +149,12 @@ $kR_NKA7Su($Ml1, $YK3qRS);
             "endLine": 5
         }
     },`}
-        </ImageWithText>
-        <ImageWithText>
-          {`
+          </ImageWithText>
+          <div className={styles.captionSide}>AST</div>
+        </div>
+        <div className={styles.imgSide}>
+          <ImageWithText>
+            {`
 $_main:
      ; (lines=58, args=0, vars=17, tmps=23)
      ; /root/gradProj/result/webshell_deobfuscated/8c561905061461c8e110587f3527cdb9.php:1-30
@@ -211,7 +216,9 @@ L0027 0054 SEND_VAR_EX CV15($YK3qRS) 2
 L0027 0055 DO_FCALL
 L0030 0056 EXT_STMT
 L0030 0057 RETURN int(1)`}
-        </ImageWithText>
+          </ImageWithText>
+          <div className={styles.captionSide}>opcode</div>
+        </div>
       </div>
     </div>
   );

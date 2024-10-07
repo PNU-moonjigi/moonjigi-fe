@@ -6,16 +6,15 @@ const TextRank = () => {
     <div className={styles.container}>
       <div className={styles.mainSection}>
         <h2 className={styles.highlight}>TextRank</h2>
-        <h1 className={styles.title}>
-          코드의 연관성을 통해 중요도를 판단
-        </h1>
+        <h1 className={styles.title}>코드의 연관성을 통해 중요도를 판단</h1>
         <p className={styles.subtitle}>
           웹쉘 탐지에 알맞게 적용한 웹쉘 맞춤 TextRank 알고리즘을 제안
         </p>
       </div>
       <div className={styles.terminalSection}>
-        <ImageWithText>
-          {`import os
+        <div className={styles.imgSide}>
+          <ImageWithText>
+            {`import os
 from collections import Counter
 import json
 from sklearn.feature_extraction.text import CountVectorizer
@@ -184,16 +183,21 @@ output_file = 'ranked_words_result.json'
 
 # 파일 처리 실행
 process_files(opcode_folder, ast_folder, output_file)`}
-        </ImageWithText>
-        <ImageWithText>
-          {`{
+          </ImageWithText>
+          <div className={styles.captionSide}>TextRank 추출 코드</div>
+        </div>
+        <div className={styles.imgSide}>
+          <ImageWithText>
+            {`{
     "assign": 0.15000000000000002,
     "expr_assign": 0.9144625056228913,
     "expr_variable": 1.0381218063694537,
     "scalar_string": 1.0381218063694537,
     "stmt_expression": 1.0092938816382035
 }`}
-        </ImageWithText>
+          </ImageWithText>
+          <div className={styles.captionSide}>TextRank</div>
+        </div>
       </div>
     </div>
   );

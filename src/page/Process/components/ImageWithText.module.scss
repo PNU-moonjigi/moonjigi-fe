@@ -3,7 +3,8 @@
 .imageContainer {
   position: relative;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0 10px;
+  padding-top: 20px;
   width: 100%;
   overflow: hidden;
 }
@@ -16,10 +17,10 @@
 
 .textOverlay {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 10%;
   width: 80%;
-  height: 78%;
+  height: 75%;
   padding: 10px;
   overflow-y: scroll;
   font-size: 16px;

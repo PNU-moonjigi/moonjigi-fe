@@ -16,6 +16,13 @@
   background-color: #000;
   color: white;
 }
+.captionSide {
+  box-sizing: border-box;
+  text-align: right;
+  color: #aaa;
+  padding: 0 50px;
+
+}
 
 .mainSection {
   text-align: left;
@@ -27,7 +34,7 @@
 }
 
 .highlight {
-  color: #ff4081;
+  color: var(--main-color);
   font-size: 1.5rem;
 }
 

