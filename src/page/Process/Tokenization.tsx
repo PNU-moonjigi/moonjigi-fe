@@ -42,7 +42,7 @@ $kR_NKA7Su($Ml1, $YK3qRS);
         <div className={styles.descriptionSide}>
           <h2 className={styles.highlight}>AST, opcode 추출</h2>
           <h1 className={styles.title}>
-            opcode와 AST를 추출하여 <br />
+            AST와 opcode를 추출하여 <br />
             피쳐를 생성한 후 학습 및 분류에 사용
           </h1>
           <p className={styles.subtitle}>
