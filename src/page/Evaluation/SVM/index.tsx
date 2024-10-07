@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../index.module.scss";
 
-const SVM: React.FC = () => {
+const SupportVector: React.FC = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>SVM</h1>
@@ -60,4 +60,4 @@ const SVM: React.FC = () => {
     );
 };
 
-export default SVM;
+export default SupportVector;

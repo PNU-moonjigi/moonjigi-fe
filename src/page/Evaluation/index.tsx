@@ -1,14 +1,14 @@
 import React from "react";
 import RandomForest from "./RandomForest";
-import SVM from "./SVM";
 import XGBoost from "./XGBoost";
+import SupportVector from "./SVM";
 
 const Evaluation: React.FC = () => {
   return (
     <>
       <RandomForest/>
-        <SVM/>
-        <XGBoost/>
+      <SupportVector/>
+      <XGBoost/>
     </>
   );
 };
