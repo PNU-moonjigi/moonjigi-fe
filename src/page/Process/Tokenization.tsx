@@ -39,9 +39,10 @@ $kR_NKA7Su($Ml1, $YK3qRS);
           </ImageWithText>
         </div>
         <div className={styles.descriptionSide}>
-          <h2 className={styles.highlight}>ast, opcode 추출</h2>
+          <h2 className={styles.highlight}>AST, opcode 추출</h2>
           <h1 className={styles.title}>
-            opcode와 AST를 추출하여 피쳐를 생성한 후 학습 및 분류에 사용
+            opcode와 AST를 추출하여 <br />
+            피쳐를 생성한 후 학습 및 분류에 사용
           </h1>
           <p className={styles.subtitle}>
             숨겨진 악성 코드를 더 잘 찾아낼 수 있다.

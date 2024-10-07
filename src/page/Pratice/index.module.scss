@@ -12,6 +12,12 @@ body {
   box-sizing: border-box;
 }
 
+.attachScreen {
+  height: 100%;
+  padding: 300px 0;
+  box-sizing: border-box;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -36,11 +42,18 @@ body {
   width: 570px;
   height: 73px;
   display: flex; // Add this line to enable flexbox
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   &:hover {
     border-bottom: 2px solid var(--highlight-color);
   }
+}
+
+.inputName {
+  display: flex; // Add this line to enable flexbox
+  flex-direction: row;
+  align-items: center;
 }
 
 .button {
@@ -51,4 +64,35 @@ body {
   font-weight: 600;
   justify-content: end;
   align-items: end;
+}
+
+.resultWrapper {
+  padding: 10px;
+  width: 1400px;
+  height: 499px;
+  margin-bottom: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.resultBox {
+  background-color: black;
+  width: 1400px;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  overflow-y: scroll;
+  height: 499px;
+  text-align: left;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.resultSection {
+  margin-bottom: 200px;
+}
+.result {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--highlight-color);
 }

@@ -9,10 +9,13 @@ const Deobfuscation: React.FC = () => {
         <div className={styles.descriptionSide}>
           <h2 className={styles.highlight}>비난독화</h2>
           <h1 className={styles.title}>
-            난독화된 코드를 원래의 가독성 있는 형태로 되돌리기
+            난독화된 코드를 <br />
+            원래의 가독성 있는 형태로 되돌리기
           </h1>
           <p className={styles.subtitle}>
-            PHPDeobfuscator를 이용하여 난독화된 PHP 코드를 비난독화하여 원래의 코드 형태로 복원한다.
+            PHPDeobfuscator를 이용하여 난독화된 PHP 코드를 비난독화하여
+            <br />
+            원래의 코드 형태로 복원한다.
           </p>
         </div>
         <div className={styles.imgSide}>
