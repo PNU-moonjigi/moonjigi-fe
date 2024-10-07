@@ -20,13 +20,20 @@
 ::-webkit-scrollbar {
   width: 6px;
 }
+::-webkit-scrollbar-horizontal {
+  height: 6px;
+}
 ::-webkit-scrollbar-thumb {
   height: 30%;
   background: #4e4848;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-track-piece {
-  background-color: #1e1e1e;
+  background-color: black;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: black;
 }
 a {
   font-weight: 500;
@@ -61,14 +68,6 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
