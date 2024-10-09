@@ -142,7 +142,7 @@ const Practice = () => {
             <h3>Opcode 결과 (JSON 형식)</h3>
             <div className={styles.resultWrapper}>
               <div className={styles.resultBox}>
-                <pre>{JSON.stringify(opcode, null, 2)}</pre>
+                <pre>{opcode}</pre>
               </div>
             </div>
           </div>
