@@ -8,7 +8,7 @@ const TextRank = () => {
         <h2 className={styles.highlight}>TextRank</h2>
         <h1 className={styles.title}>코드의 연관성을 통해 중요도를 판단</h1>
         <p className={styles.subtitle}>
-          웹쉘 탐지에 알맞게 적용한 웹쉘 맞춤 TextRank 알고리즘을 제안
+          웹쉘 탐지에 알맞게 적용한 웹쉘 맞춤 TextRank 알고리즘을 제안한다.
         </p>
       </div>
       <div className={styles.terminalSection}>

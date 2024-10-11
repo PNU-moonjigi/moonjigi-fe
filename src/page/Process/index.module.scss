@@ -21,7 +21,6 @@
   text-align: right;
   color: #aaa;
   padding: 0 50px;
-
 }
 
 .mainSection {
@@ -36,12 +35,14 @@
 .highlight {
   color: var(--main-color);
   font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .title {
   font-size: 2.5rem;
   margin-top: 10px;
   line-height: 1.4;
+  font-weight: 800;
 }
 
 .subtitle {
