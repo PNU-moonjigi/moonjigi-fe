@@ -7,15 +7,19 @@
 
 .title {
   margin: 10px;
+  margin-bottom: 25px;
   font-size: 40px;
 }
 .description {
   color: #aaa;
   margin: 10px;
+  font-size: 18px;
   padding-bottom: 10px;
   word-wrap: break-word;
   width: 100%;
   word-break: break-all;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 table {
   //border: 1px solid #aaa;
