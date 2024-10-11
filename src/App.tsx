@@ -5,11 +5,13 @@ import Process from "./page/Process/index.tsx";
 import Evaluation from "./page/Evaluation/index.tsx";
 import Practice from "./page/Pratice/index.tsx";
 import Overview from "./page/Overview/index.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Overview />} />
         <Route path="/overview" element={<Overview />} />
